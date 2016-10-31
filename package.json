@@ -1,0 +1,25 @@
+{
+  "name": "wp",
+  "version": "1.0.0",
+  "description": "wp",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack --progress --profile --colors --config webpack.production.config.js"
+  },
+  "author": "chwech",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.25.0",
+    "html-webpack-plugin": "^2.24.0",
+    "jquery": "^3.1.1",
+    "postcss-loader": "^1.1.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
