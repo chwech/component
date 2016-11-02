@@ -27,13 +27,15 @@
 .window_body{
 	padding: 10px;
 }
-.window_footer input{
-	width: 100px;
+.window_footer{
+	width: 100%;
+	text-align: center;
 	position: absolute;
-	bottom: 10px;
-	left: 50%;
-	margin-left: -50px;
-	cursor: pointer;
+	bottom: 0;
+	padding-bottom: 10px;
+}
+.window_cancelBtn{
+	margin-left: 20px;
 }
 /*模态*/
 .window_mask{
@@ -46,11 +48,14 @@
 	background-color: #000;
 	z-index: 0;
 }
+.window_promptInputWrapper{
+	text-align: center;
+}
 /*定制皮肤*/
 .skin_a.window_boundingBox{
 	background-color: lightblue;
 }
-.skin_a .window_closebtn{
+.skin_a .window_closeBtn{
 	background-color: yellow;
 	color: black;
 	font-weight: bold;

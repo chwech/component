@@ -32,6 +32,7 @@ class widget{
 	}
 	//接口：销毁前的处理函数
 	destructor(){
+	
 	}
 	// 方法：渲染组件
 	render(container){
